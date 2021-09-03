@@ -37,22 +37,33 @@ For this tutorial we'll need the following programs:
 
 ## Presenters
 
-<img align="left" src="https://researchers.adelaide.edu.au/sites/default/files/styles/profile_large/public/profile-images/10840.jpeg" width="180" height="200" />
+<img align="left" src="https://researchers.adelaide.edu.au/sites/default/files/styles/profile_large/public/profile-images/10840.jpeg" width="180" height="180" />
 1. Bastien Llamas
     Bastien is an Associate Professor of Ancient DNA at the University of Adelaide and investigates a range of genetic and epigenetic mechanisms and host-microbiome interactions that facilitate human adaptation to diverse environmental and cultural stressors. He uses a range of advanced new analytical methods (e.g., long-read sequencing, genome graphs) to integrate past and present Indigenous genetic diversity from populations around the world into a new human pangenome reference.
+  
+
 
 <img align="right" src="https://www.adelaide.edu.au/directory/melanie.smith?attr=data;dsn=directory.image;field=image;id=56547;m=view" width="200" height="200" />
 2. Melanie Smith
     Melanie is a Postdoctoral Researcher in Professor Claire Roberts's lab at Flinders University. Her research is focused on investigating the role of miRNAs to regulate gene expression in the placenta during pregnancy. She is focused on determining molecular biomarkers for monitoring placenta and pregnancy help using multiomics and bioinformatics analysis methods.
+  
+  
 
 <img align="left" src="https://www.sahmriresearch.org/user_assets/7af8aac6c4da0cfb8ccfb1ba486c6d74b5992988/dimitrios_cakouros_cropped.jpg" width="180" height="200" />
 3. Dimitrios (Jim) Cakouros
     Jim is a Postdoctoral Researcher in Professor Stan Gronthos's lab at SAHMRI where his research is focused on investigating epigenetic mechanisms employed by mesenchymal stem cells (MSC) to regulate stem cell renewal and lineage determination. He uses genome wide chromatin immunoprecipitation (ChIP), drug inhibition and conditional knockout models to investigate the function of epigenetic enzymes in skeletal development and bone related diseases such as osteoporosis, fractures and saethre chotsen syndrome.
+  
+  
 
 <img align="right" src="https://portal.sahmriresearch.org/files-asset/35193617/Stevens.Natalie_Dr._Precision_Medicine_3_PURE.jpg" width="160" height="200" />
 4. Natalie Stevens
     Natalie is a Postdoctoral Researcher in Immunology in Professor David Lynn's EMBL Computational and Systems Biology Laboratory. She works to understand the consequences of immune challenges on longterm innate immune function and pathogen defence. Natalie is passionate about evidence-based medicine, communicating science to the public and advocating for science literacy.
+  
+  
 
 <img align="left" src="https://pbs.twimg.com/profile_images/1232553882804350976/R7_bUSmc_400x400.jpg" width="180" height="200" />
 5. Jimmy Breen
     Jimmy is Bioinformatics leader at the SAGC, specialising in many bioinformatics analysis techniques mainly centred around Functional Genomics. He leads a research group at the Robinson Research Institute (University of Adelaide) developing methods to analyse multiomics datasets, primarily focused on gene regulation in human reproductive systems.
+  
+  
+  
