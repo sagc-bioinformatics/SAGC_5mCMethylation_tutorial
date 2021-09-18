@@ -15,6 +15,8 @@ For this tutorial we'll need the following programs:
 - [bismark](http://www.bioinformatics.babraham.ac.uk/projects/download.html#bismark)
 - samtools/htslib/bcftools
 - [MethylDacyl](https://github.com/dpryan79/MethylDackel)
+- Trim_Galore/cutadapt
+- bedtools
 
 ## Workshop schedule
 
@@ -66,4 +68,14 @@ Natalie is a Postdoctoral Researcher in Immunology in Professor David Lynn's EMB
 <u>5. Jimmy Breen</u>
   
 Jimmy is Bioinformatics leader at the SAGC, specialising in many bioinformatics analysis techniques mainly centred around Functional Genomics. He leads a research group at the Robinson Research Institute (University of Adelaide) developing methods to analyse multiomics datasets, primarily focused on gene regulation in human reproductive systems.
-  
+
+
+
+## Tutorial
+
+1. [Whole Genome Bisulfite Sequencing (WGBS) introduction](tutorial/WGBS_intro.md)
+2. [Data prep & quality control](tutorial/BS_quality_control.md)
+3. [Reference genome mapping](tutorial/BS_mapping_example.md)
+4. [Post mapping quality control & methylation calling](tutorial/methylation_calling.md)
+5. [Identification of Differentially Methylated Regions (DMRs)](tutorial/DMR_analysisR.md)
+6. [Data integration]
