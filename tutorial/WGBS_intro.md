@@ -7,9 +7,9 @@ Senior Research Associate, Adelaide Medical School, University of Adelaide
 
 ## Introduction
 
+## The advantages and disadvantages of WGBS
 
 ## Analysis Workflow
-
 
 ## Available community-driven analysis workflows
 

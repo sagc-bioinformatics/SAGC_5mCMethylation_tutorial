@@ -21,29 +21,36 @@ _MET1_ is the gene responsible for the maintenance of CpG methylation in Plants,
 
 We will need to rename these FASTQ files to make them a little more easy to 
 
+
+## FASTQ files
+
+- Move from /data
+
+Outline of FASTQs
+
+## Quality control
+
+The important first step in any pipeline is assessing the quality of your initial dataset.
+Just because a dataset has been published, does not mean that its of high quality (quite the opposite in our experience!).
+For most of our pipelines and workflows, we run a standard FastQC analysis.
+
+
 	# Run fastQC
 	fastqc -t 2 SRR534239_met1.fastq.gz SRR534177_colWT.fastq.gz
 
-The two samples are the Columbia wild-type reference and _met1_, a mutation of the CG methyltransferase MET1 resulting in elimination of CG methylation throughout the genome.
+- FastQC basics
+- 
+- Nucleotide composition
 
-The reference genome of _Arabidopsis_thaliana_ is in the /data directory, so lets format that for bisulfite sequence mapping. We need to make sure that bismark recognises that you want to use bowtie2 to do the mapping.
-
-
-	# Create directory for bismark BS-seq genome
-	mkdir Athal
-
-	# Move data file in there
-	mv data/TAIR10.fa Athal/
-
-	# Run bismark to format our Athaliana genome (TAIR10)
-	bismark_genome_preparation --bowtie2 Athal
-
-Now our genome 
+## Adapter/Quality Trimming
 
 We may need to trim quality and adapters if the fastQC report indicates that there is adapter contamination and/or poor quality at the end of sequence reads.
 
+### Clipping WGBS data
+- Different libraries have different priming strategies
 
-	# Trim adapters and quality
+
+# Trim adapters and quality
+
 	trim_galore -o ./ --clip_R1 5 --three_prime_clip_R1 5  SRR534177.fastq.gz
 
-## Clipping WGBS data
