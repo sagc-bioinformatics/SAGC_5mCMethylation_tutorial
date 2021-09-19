@@ -158,4 +158,4 @@ For humans and other species that lack extensive inbreeding, you should be aimin
 
 ---
 
-NEXT: We'll dive into [Genome Mapping](tutorial/BS_mapping_example.md)
+NEXT: We'll dive into [Genome Mapping](BS_mapping_example.md)

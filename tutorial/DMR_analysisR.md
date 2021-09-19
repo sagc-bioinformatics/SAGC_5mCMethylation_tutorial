@@ -2,11 +2,10 @@
 
 ## Materials
 
-Tutorial materials for this section is found at my github account:
+Tutorial materials for this section was previously presented at the EpiCSA DNA methylation workshop in 2016.
+This data is available at [that github repository](https://github.com/jimmybgammyknee/EpiCSA_Methylation_June2016).
 
-	https://github.com/jimmybgammyknee/EpiCSA_Methylation_June2016
-
-This part of the differential methylation pipeline is mostly done in R. Much like Ben's methyl array tutorial, you can do all of this work in Rstudio.
+This part of the differential methylation pipeline is mostly done in R.
 
 Due to the time it takes to create all our nessessary files, I have done the before work for you and all you need to do is download the following file from my University CloudStor+ account:
 
