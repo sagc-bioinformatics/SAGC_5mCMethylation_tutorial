@@ -76,7 +76,9 @@ NOTE: This command MUST be run from your local machine, not the VM, and that you
 	scp jimmy.breen@myhost.com.au:*_fastqc.html ~/tutorial/
 
 Please let a helper know if you're having issues. 
-
+Example HTML files are available below, but you will need to download these to your computer to view.
+- https://github.com/sagc-bioinformatics/SAGC_5mCMethylation_tutorial/blob/7d7fbd0eb8c3b5fa17a01e6cb68d6a9158f2dc2a/data/SRR534177_colWT_fastqc.html
+- https://github.com/sagc-bioinformatics/SAGC_5mCMethylation_tutorial/blob/7d7fbd0eb8c3b5fa17a01e6cb68d6a9158f2dc2a/data/SRR534239_met1_fastqc.html
 
 **Questions**  
 1. How many total reads are in each sample?
@@ -114,9 +116,27 @@ See this data processing section from a [recent Systematic Evaluation of WGBS li
 
 Library preparation methods differ, so always check your data quality report first and the data analysis documentation for the specific WGBS kit you are using.
 
+Let's have a look at the final trimming results to see how much we've actually trimmed?
+
+	$ ls -1 SRR534177_colWT*
+	SRR534177_colWT_fastqc.html
+	SRR534177_colWT_fastqc.zip
+	SRR534177_colWT.fastq.gz
+	SRR534177_colWT.fastq.gz_trimming_report.txt
+	SRR534177_colWT_trimmed.fq.gz
+
+	$ less SRR534177_colWT.fastq.gz_trimming_report.txt
+
+**Questions**  
+1. What type of adapter was detected and used in the `trim-galore` trimming?
+2. What proportion of reads had adapters in each sample?
+3. How many sequences in each sample were removed due to being smaller than the 20bp minimum sequence?
+
+---
+
 ## Coverage recommendations
 
-So how much coverage do you need?
+Its a question we get a lot: "So how much coverage do I need?"
 Well as with all questions you get with high-throughput sequencing, it depends on the question you want answered.
 Based on our experience, specific levels of coverage impact specific biological questions.
 
@@ -132,3 +152,6 @@ _High coverage (30X+ genome coverage)_:
 - Close to single C coverage
 - Accurate DMRs and methylation signal at each site
 - Potentially identify haplotype-specific DNA methylation (may require 50X+ coverage)
+
+With Differentially Methylated Region (DMR) identification, you should be looking at a minimum of 3 replicates per group for species with low genetic variability (i.e. model organisms). 
+For humans and other species that lack extensive inbreeding, you should be aiming for 4+ replicates.
