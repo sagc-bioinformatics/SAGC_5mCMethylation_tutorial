@@ -1,8 +1,7 @@
 
 # SAGC 5mC DNA Methylation tutorial
 
-September 21st 2021
-
+September 21st 2021  
 Presenters: Jimmy Breen, Bastien Llamas, Melanie Smith, Nathan Watson-Haigh  
 
 ## What you'll need  
@@ -11,12 +10,12 @@ Presenters: Jimmy Breen, Bastien Llamas, Melanie Smith, Nathan Watson-Haigh
     - Preferrably a Mac or Linux but newer windows versions have the windows linux subsystem capabilities (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 For this tutorial we'll need the following programs:
-- bowtie2
+- `bowtie2`
 - [bismark](http://www.bioinformatics.babraham.ac.uk/projects/download.html#bismark)
-- samtools/htslib/bcftools
+- `samtools`
 - [MethylDacyl](https://github.com/dpryan79/MethylDackel)
-- Trim_Galore/cutadapt
-- bedtools
+- `trim-galore`
+- `bedtools`
 
 ## Workshop schedule
 
@@ -72,12 +71,16 @@ Jimmy is Bioinformatics leader at the SAGC, specialising in many bioinformatics 
 
 ## Tutorial
 
-1. [Whole Genome Bisulfite Sequencing (WGBS) introduction](tutorial/WGBS_intro.md)
-2. [Data prep & quality control](tutorial/BS_quality_control.md)
-3. [Reference genome mapping](tutorial/BS_mapping_example.md)
-4. [Post mapping quality control & methylation calling](tutorial/methylation_calling.md)
-5. [Data integration](tutorial/BS_DMR_integration.md)
+1. [Whole Genome Bisulfite Sequencing (WGBS) introduction](tutorial/01_WGBS_intro.md)
+2. [Data prep & quality control](tutorial/02_BS_quality_control.md)
+3. [Reference genome mapping](tutorial/03_BS_mapping_example.md)
+4. [Post mapping quality control & methylation calling](tutorial/04_methylation_calling.md)
+5. [Data integration](tutorial/05_data_integration.md)
 
 ### Not discussed but information available
 
 - [Identification of Differentially Methylated Regions (DMRs)](tutorial/DMR_analysisR.md)
+
+### Full dataset download
+
+- [Download the full dataset for future work](tutorial/fillDataDownload.md)

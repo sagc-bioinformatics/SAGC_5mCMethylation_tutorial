@@ -43,4 +43,4 @@ Now we have an alignment for each of our samples, we need to extract the respect
 
 ---
 
-LASTLY: To finish off we're going to skip the DMR step and get stuck into [data integration](data_integration.md)
+LASTLY: To finish off we're going to skip the DMR step and get stuck into [data integration](05_data_integration.md)

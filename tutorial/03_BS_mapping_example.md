@@ -85,4 +85,4 @@ The amount of data thats produced from the alignment file
 
 ---
 
-NEXT: We'll now start using these BAM files to [call methylated sites](methylation_calling.md)
+NEXT: We'll now start using these BAM files to [call methylated sites](04_methylation_calling.md)
