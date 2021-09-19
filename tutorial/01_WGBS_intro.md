@@ -32,6 +32,74 @@ For today we will be using these basic commands (care of Fides D Lay: UCLA):
 - Current directory: `./`
 - Count lines in a file: `wc –l fileName`
 
+## Load up a Terminal
+
+Once you are logged into your virtual machine (see Jimmy and other workshop helpers for your username and IP address), you should see a command prompt that looks like this:
+
+    .......:~$ ssh username@100.100.100.100
+    username@100.100.100.100's password:
+    Welcome to Ubuntu 21.04 (GNU/Linux 5.11.0-1018-gcp x86_64)
+
+    * Documentation:  https://help.ubuntu.com
+    * Management:     https://landscape.canonical.com
+    * Support:        https://ubuntu.com/advantage
+
+    System information as of Mon Sep 20 08:12:57 ACST 2021
+
+    System load:  0.0                Processes:             122
+    Usage of /:   32.7% of 19.21GB   Users logged in:       0
+    Memory usage: 1%                 IPv4 address for ens4: 10.152.0.26
+    Swap usage:   0%
+
+    * Super-optimized for small spaces - read how we shrank the memory
+    footprint of MicroK8s to make it the smallest full K8s around.
+
+    https://ubuntu.com/blog/microk8s-memory-optimisation
+
+    0 updates can be applied immediately.
+
+
+    Last login: Sun Sep 19 19:39:38 2021 from 182.255.102.162
+    -bash: warning: setlocale: LC_ALL: cannot change locale (en_AU.UTF-8)
+
+    (base) sagc001@workshop-wgbs-test:~$ 
+
+You've successfully logged on!
+The one additional requirement that we need to do is activate your conda environment.
+Its often quite timeconsuming to install packages on linux machines, and not everyone has the technical skills to install multiple programs and their dependencies quickly and easily on the terminal.
+[Conda](https://docs.conda.io/en/latest/) is a common package repository system that makes it safe and easy to install packages on any machine.
+Conda creates whats called a "Virtual Environment" which contains all of the packages and programs that you need, without compromising the rest of the system.
+Additionally, Conda has a Bioinformatics-specific project called [Bioconda](https://bioconda.github.io/) so you can easily install Bioinformatics packages with a `conda install` command.
+99% of Bioinformatics packages should be found on that site, so it is well worth your time to use it!
+
+From command prompt above, we have already got conda running, as you see the `(base)` syntax on the left hand side of your prompt.
+This just means that you are currently inside the `base` conda environment and that all of the regular conda commands will be available for you.
+
+Before we start to use our workshop programs, we need to activate the environment where all our commands are found.
+Using the terminal that is logged onto our VM, run:
+
+    (base) sagc001@workshop-wgbs-test:~$ conda activate wgbs
+    (wgbs) sagc001@workshop-wgbs-test:~$
+
+See how the `(base)` has now gone to `(wgbs)`.
+We now should be able to run any of our workshop programs, so test it on `bismark`.
+
+    (wgbs) sagc001@workshop-wgbs-test:~$ bismark
+    Bowtie 2 seems to be working fine (tested command 'bowtie2 --version' [2.4.4])
+    Output format is BAM (default)
+    Alignments will be written out in BAM format. Samtools found here: '/opt/miniconda3/envs/wgbs/bin/samtools'
+    Genome folder was not specified!
+
+    DESCRIPTION
+
+    The following is a brief description of command line options and arguments to control the Bismark
+    bisulfite mapper and methylation caller. Bismark takes in FastA or FastQ files and aligns the
+    reads to a specified bisulfite genome. Sequence reads are transformed into a bisulfite converted forward strand
+    .....
+
+This is the help page for `bismark` so we're in business!
+
+
 ## Whole genome bisulfite sequencing (WGBS)
 
 From [Enseqlopedia](http://enseqlopedia.com/wiki-entry/dna-sequencing-methods/epigenetics/bs-seqbisulfite-seqwgbs/):  
