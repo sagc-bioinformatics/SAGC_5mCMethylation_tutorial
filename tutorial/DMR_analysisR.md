@@ -29,7 +29,8 @@ In bash:
 	
 ## Installing Required R Packages
 
-Now we can start running our statistical analysis in R. Open up Rstudio and nagivate to where your data is found.
+Now we can start running our statistical analysis in R. 
+Open up Rstudio and nagivate to where your data is found.
 
 Firstly we need to install methylkit:
 
