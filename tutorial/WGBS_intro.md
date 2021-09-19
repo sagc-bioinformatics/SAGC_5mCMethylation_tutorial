@@ -27,6 +27,7 @@ For today we will be using these basic commands (care of Fides D Lay: UCLA):
 - Secure copy: `scp user@host1:dir/file user@host2:dir/file`
 - Compress a file: `gzip –c file > file.gz`
 - Uncompress a file: `gunzip file.gz`
+- Print a compressed file: `zcat file.gz`
 - Make a new folder: `mkdir data2`
 - Current directory: `./`
 - Count lines in a file: `wc –l fileName`
