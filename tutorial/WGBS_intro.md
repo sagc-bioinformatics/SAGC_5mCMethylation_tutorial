@@ -78,4 +78,4 @@ Below are a number of recommendations for DNA methylation:
 
 ---
 
-NEXT: Lets get straight into it with [Sequencing QC](tutorial/BS_quality_control.md)
+NEXT: Lets get straight into it with [Sequencing QC](BS_quality_control.md)
