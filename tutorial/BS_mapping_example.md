@@ -61,7 +61,6 @@ Firstly, lets look at the header:
 	@SQ	SN:chloroplast	LN:154478
 	@PG	ID:Bismark	VN:v0.22.1	CL:"bismark -p 8 --bam --bowtie2 Athalchr1cp SRR534177_colWT_trimmed.fq.gz"
 
-
 Now lets have a look at the rest of the BAM file.
 Because there is a lot of lines in this file, lets just look at the top portion:
 
@@ -71,6 +70,11 @@ Because there is a lot of lines in this file, lets just look at the top portion:
 	SRR534177.34_SN603_WA034:3:1101:51.50:109.90/1	16	1	19411065	42	39M	*	0	0	CAAATATAAATTCCGCACAAATTCCTACAACATTTTCAT	JJJJJJIJJJGGJIIIHJJJJIGIHGDJIIJHHHHHFFF	NM:i:4	MD:Z:9G9G0G8G9	XM:Z:.........h....Z....xh........x.........	XR:Z:CT	XG:Z:GA
 	SRR534177.36_SN603_WA034:3:1101:72.10:110.50/1	0	chloroplast	47672	42	37M	*	0	0	ATAGATTTAAGTTATATATTAAAATGATATTGATATT	FFFHHHHHJJJIJJJJJJJJJJJJJJIJJJJJJJIJJ	NM:i:5	MD:Z:5C0C5C16C5C1	XM:Z:.....hh.....h................x.....h.	XR:Z:CT	XG:Z:CT
 
+As you can see, the last fields
+
+	less SRR534177_colWT_trimmed_bismark_bt2_SE_report.txt
+
+
 
 ## Summary statistics
 
@@ -79,4 +83,6 @@ The amount of data thats produced from the alignment file
 	$ samtools flagstat  SRR534177_colWT_trimmed_bismark_bt2.bam
 
 
+---
 
+NEXT: We'll now start using these BAM files to [call methylated sites](tutorial/methylation_calling.md)

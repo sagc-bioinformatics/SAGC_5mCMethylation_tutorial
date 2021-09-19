@@ -155,3 +155,7 @@ _High coverage (30X+ genome coverage)_:
 
 With Differentially Methylated Region (DMR) identification, you should be looking at a minimum of 3 replicates per group for species with low genetic variability (i.e. model organisms). 
 For humans and other species that lack extensive inbreeding, you should be aiming for 4+ replicates.
+
+---
+
+NEXT: We'll dive into [Genome Mapping](tutorial/BS_mapping_example.md)
