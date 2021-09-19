@@ -78,4 +78,4 @@ Jimmy is Bioinformatics leader at the SAGC, specialising in many bioinformatics 
 3. [Reference genome mapping](tutorial/BS_mapping_example.md)
 4. [Post mapping quality control & methylation calling](tutorial/methylation_calling.md)
 5. [Identification of Differentially Methylated Regions (DMRs)](tutorial/DMR_analysisR.md)
-6. [Data integration]
+6. [Data integration](tutorial/BS_DMR_integration.md)
