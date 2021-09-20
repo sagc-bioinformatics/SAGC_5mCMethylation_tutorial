@@ -107,7 +107,7 @@ Be aware, this is density of sites (count) rather than methylation level.
 ![Chan et al. 2014 _PNAS_](https://www.pnas.org/content/111/49/E5302/F1.large.jpg)
 
 - GIGGLE and Epigenomics Roadmap
-![GIGGLE scores Epigenomics Roadmap ChromHMM](Visualization-of-GIGGLE-scores-from-various-searches-a-b-The-relationships-between-15.jpeg)
+![GIGGLE scores Epigenomics Roadmap ChromHMM](../figures/Visualization-of-GIGGLE-scores-from-various-searches-a-b-The-relationships-between-15.jpeg)
 
 - Density scatter plots
 ![Greenfield et al. 2018 _PNAS_](https://www.pnas.org/content/early/2018/09/25/1804755115/F1.large.jpg)
