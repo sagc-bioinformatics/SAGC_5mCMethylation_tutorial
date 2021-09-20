@@ -125,7 +125,11 @@ Let's have a look at the final trimming results to see how much we've actually t
 	SRR534177_colWT.fastq.gz_trimming_report.txt
 	SRR534177_colWT_trimmed.fq.gz
 
+The `trim-galore` report is contained within the file finishing with the suffix `_trimming_report.txt`, so lets have a look at it.
+
 	$ less SRR534177_colWT.fastq.gz_trimming_report.txt
+
+
 
 **Questions**  
 1. What type of adapter was detected and used in the `trim-galore` trimming?

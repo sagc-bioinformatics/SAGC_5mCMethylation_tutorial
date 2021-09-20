@@ -17,6 +17,8 @@ For this tutorial we'll need the following programs:
 - `trim-galore`
 - `bedtools`
 
+---
+
 ## Workshop schedule
 
 | Time      | Description                                           |
@@ -35,6 +37,8 @@ For this tutorial we'll need the following programs:
 | 1400-1430 |                                        [Coffee Break] |
 | 1430-1600 | Hands-on bioinformatics tutorial (cont.)              |
 | 1600-1700 |                              [Drinks at the West Oak] |
+
+---
 
 ## Presenters
 
@@ -67,7 +71,9 @@ Natalie is a Postdoctoral Researcher in Immunology in Professor David Lynn's EMB
 <u>5. Jimmy Breen</u>
   
 Jimmy is Bioinformatics leader at the SAGC, specialising in many bioinformatics analysis techniques mainly centred around Functional Genomics. He leads a research group at the Robinson Research Institute (University of Adelaide) developing methods to analyse multiomics datasets, primarily focused on gene regulation in human reproductive systems.
+  
 
+---
 
 ## Tutorial
 
