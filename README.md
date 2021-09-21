@@ -89,4 +89,4 @@ Jimmy is Bioinformatics leader at the SAGC, specialising in many bioinformatics 
 
 ### Full dataset download
 
-- [Download the full dataset for future work](tutorial/fillDataDownload.md)
+- [Download the full dataset for future work](tutorial/fullDataDownload.md)
