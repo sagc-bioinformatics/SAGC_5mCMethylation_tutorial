@@ -170,8 +170,9 @@ We can use the linux command awk to filter those sites, by filtering sites with 
 
 Extending this approach, lets output CHG and CHH metrics along with CpG by adding the `--CHG --CHH` flags to the same command.
 
-	$ MethylDackel extract -d 10 -q 10 -p 5 --CHG --CHH Athal/TAIR10_chr1_cp.fa.gz \
-		SRR534239_met1_trimmed_bismark_bt2.deduplicated.sorted.bam
+
+	$ MethylDackel extract -d 10 -q 10 -p 5 --CHG --CHH Athal/TAIR10_chr1_cp.fa.gz  \
+	        SRR534177_colWT_trimmed_bismark_bt2.deduplicated.sorted.bam
 
 	$ MethylDackel extract -d 10 -q 10 -p 5 --CHG --CHH Athal/TAIR10_chr1_cp.fa.gz \
 		SRR534239_met1_trimmed_bismark_bt2.deduplicated.sorted.bam
