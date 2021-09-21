@@ -23,6 +23,10 @@ _MET1_ is the gene responsible for the maintenance of CpG methylation in Plants,
 ## FASTQ files
 
 The FASTQ files that are needed for today's tutorial are in the `/data/wgbs/` and named `SRR534177_colWT.fastq.gz` and `SRR534239_met1.fastq.gz`.
+We need to copy the data into our home directory by running:
+
+	# copy everything from /data/wgbs to our home dir
+	cp /data/wgbs/* ~/
 
 These FASTQs are a subset of reads (~6M) that map to chr1 and chloroplast chromosomes of _Arabidopsis thaliana_ in order to speed up analysis time.
 
